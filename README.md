@@ -10,16 +10,16 @@ Um sistema de gestão de tickets de estacionamento que permite criar, pagar e li
 
 ## 💻 Telas 
 ### Menu:
-![Menu](https://github.com/user-attachments/assets/56488106-f66a-4e06-b9e7-e72781551e26)
+![Menu](https://github.com/user-attachments/assets/0fa78fc9-3562-4435-9ddb-d82ed6c78d3f)
 
 ### Emitir:
-![Adicionar](https://github.com/user-attachments/assets/79767ded-cdd5-4536-b75f-77a972ad69bf)
+![Emitir](https://github.com/user-attachments/assets/414c7053-a3c6-486b-8636-70d137327d94)
 
 ### Pagar Ticket:
-![Alterar](https://github.com/user-attachments/assets/870fe8be-8fe2-46e1-bdc3-39325f52c3b2)
+![Pagar](https://github.com/user-attachments/assets/458a1128-f3f2-4564-95e6-8154818e9b99)
 
 ### Mostrar Tickets Pagos e Total Obtido:
-![Listar](https://github.com/user-attachments/assets/cc2e8f72-9811-49d1-ba81-a8a56781b554)
+![TIcketsPagos](https://github.com/user-attachments/assets/75515c1d-35f1-4f93-ba9b-248bf0e05124)
 
 ## 👨‍💻 Rodando o Programa
 https://github.com/user-attachments/assets/c94e2eb9-baa1-4268-9b02-b12500938663
