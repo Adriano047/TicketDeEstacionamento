@@ -19,7 +19,7 @@ Um sistema de gestão de tickets de estacionamento que permite criar, pagar e li
 ![Pagar](https://github.com/user-attachments/assets/458a1128-f3f2-4564-95e6-8154818e9b99)
 
 ### Mostrar Tickets Pagos e Total Obtido:
-![TIcketsPagos](https://github.com/user-attachments/assets/75515c1d-35f1-4f93-ba9b-248bf0e05124)
+[![TIcketsPagos](https://github.com/user-attachments/assets/75515c1d-35f1-4f93-ba9b-248bf0e05124)](https://github.com/user-attachments/assets/4c8acbfa-6362-49bc-97e0-7a81fccb0df8)
 
 ## 👨‍💻 Rodando o Programa
 https://github.com/user-attachments/assets/c94e2eb9-baa1-4268-9b02-b12500938663
