@@ -50,10 +50,12 @@ public class Menu {
                    
                     if (codigo == null) {
                         break;
-                    } else if (codigo.equals("")) {
+                    }
+                    var Limpar = codigo.trim(); 
+                    if (Limpar.equals("")) {
                         JOptionPane.showMessageDialog(null, "Digite algo", "", 0);
                     }else {
-                        JOptionPane.showMessageDialog(null, Pagar.PagarTicket(codigo));
+                        JOptionPane.showMessageDialog(null, Pagar.PagarTicket(Limpar));
                     }
                 }
             }else if(menu == 2) {
