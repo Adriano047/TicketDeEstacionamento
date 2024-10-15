@@ -36,41 +36,4 @@ public class Emitir extends Ticket{
         StringFormatada.add(Format);
         return Format;
     }
-    public StringBuilder TicketsNãoPagos() {
-        Boolean Devendo = false;
-        StringBuilder NaoPagos = new StringBuilder("Tickets não Pagos:\n");
-            var Index = 0;
-            for (Boolean Verifar: Pagamento) {
-                if (Verifar.equals(false)) {
-                    NaoPagos.append(StringFormatada.get(Index)).append("\n");
-                    Devendo = true;
-                }
-                Index++;
-            } if (Devendo.equals(false)) {
-                NaoPagos = new StringBuilder("Sem Tickets a paga\n");
-            }
-        return NaoPagos;
-    }
-    public StringBuilder TicketsPagos() {
-        Boolean Pago = false;
-        Integer Total = 0;
-        StringBuilder Pagos = new StringBuilder("Tickets Pagos:\n");
-            var Index = 0;
-            for (Boolean Verifar: Pagamento) {
-                if (Verifar.equals(true)) {
-                    Pagos.append(StringFormatada.get(Index)).append("\n");
-                    var valor = Valores.get(Index);
-                    Total += valor;
-                    Pago = true;
-                }
-                Index++;
-            } 
-            
-            if (Pago.equals(false)) {
-                Pagos = new StringBuilder("Sem Tickets pagos\n");
-            }else {
-                Pagos.append("Total: R$" + Total);
-            }
-        return Pagos;
-    }
 }
