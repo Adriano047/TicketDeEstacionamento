@@ -4,6 +4,8 @@ import javax.swing.JOptionPane;
 public class Menu {
     Emitir Emitir = new Emitir();
     private Pagar Pagar = new Pagar();
+    Pagos Pago = new Pagos();
+    NaoPagos NaoPago = new NaoPagos();
     Integer Valor;
     void Iniciar() {
         while (true) {
@@ -46,7 +48,7 @@ public class Menu {
             }else if(menu == 1) {
                 var codigo = "";
                 while (codigo.equals("")) {
-                    codigo = JOptionPane.showInputDialog(null, Emitir.TicketsNãoPagos() + "\nDigite o Código do Ticket:", "Pagamentos de ticket", 3);
+                    codigo = JOptionPane.showInputDialog(null, NaoPago.TicketNãoPago() + "\nDigite o Código do Ticket:", "Pagamentos de ticket", 3);
                    
                     if (codigo == null) {
                         break;
@@ -59,7 +61,7 @@ public class Menu {
                     }
                 }
             }else if(menu == 2) {
-                JOptionPane.showMessageDialog(null, Emitir.TicketsPagos(), "Tickes Pagos", 1);
+                JOptionPane.showMessageDialog(null, Pago.TicketsPagos(), "Tickes Pagos", 1);
             }else {
                 break;
             }
